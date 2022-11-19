@@ -1,11 +1,13 @@
 {
-  "name": "Lime-ui",
-  "version": "1.0.0",
+  "name": "sakura-ui",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
-    "build": "vite build"
+    "dev": "vite",
+    "build": "vite build",
+    "build:less": "esno build/buildLess"
   },
   "files": [
     "es",
@@ -17,8 +19,8 @@
   ],
   "author": "sakura",
   "license": "MIT",
+  "typings": "lib/index.d.ts",
   "dependencies": {
-    "@Lime-ui/utils": "workspace:^1.0.0"
-  },
-  "typings": "lib/index.d.ts"
+    "@sakura-ui/utils": "workspace:^1.0.0"
+  }
 }

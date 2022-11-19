@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Button></Button>
+    <Button />
   </div>
 </template>
 <script lang="ts">
-import { Button } from "Lime-ui";
+import { Button } from "sakura-ui";
 </script>

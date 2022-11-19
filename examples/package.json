@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "Lime-ui": "workspace:^1.0.0"
+    "sakura-ui": "workspace:^1.0.4"
   }
 }

@@ -1,9 +1,9 @@
-import { testfun } from "@Lime-ui/utils"
-import Button from './src/button'
-
-const result = testfun(1, 1)
-console.log(result)
-
-export {
-    Button
+import * as components from './src/index'
+export * from './src/index'
+export default {
+    install: (app: any) => {
+        for (const comkey in components) {
+            app.component((components as any)[comkey].name, (components as any)[comkey])
+        }
+    }
 }
