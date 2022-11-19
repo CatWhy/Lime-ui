@@ -1,5 +1,5 @@
 {
-  "name": "sakuraui",
+  "name": "@sakura-gmy/sakura-ui",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
